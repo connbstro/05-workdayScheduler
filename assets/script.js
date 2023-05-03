@@ -1,6 +1,8 @@
 $(function () {
   currentDate();
   timeSlot();
+  todos();
+  saveTodo();
 });
 
 // Show current date on page.
