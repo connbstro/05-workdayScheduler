@@ -24,3 +24,15 @@ function timeSlot() {
     }
   });
 }
+
+// Get todos from local storage.
+function todos() {
+  const timeBlock = $(".time-block");
+  timeBlock.each(function () {
+    const hour = $(this).attr("id");
+    const task = JSON.parse(localStorage.getItem(hour));
+    if (task) {
+      $(this).children("textarea").val(task);
+    }
+  });
+}
