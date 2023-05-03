@@ -36,3 +36,14 @@ function todos() {
     }
   });
 }
+
+// Save to local storage.
+function saveTodo() {
+  const saveBtn = $(".saveBtn");
+  saveBtn.click(function (e) {
+    e.preventDefault();
+    const hour = $(this).parents().attr("id");
+    const description = $(this).prev().val();
+    localStorage.setItem(hour, JSON.stringify(description));
+  });
+}
