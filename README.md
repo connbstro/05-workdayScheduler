@@ -8,6 +8,8 @@ AS AN employee with a busy schedule I WANT to add important events to a daily pl
 
 Created a simple calendar application that allows a user to save events for each hour of the day as well as the tasks for that day during business hours (9 AM to 5 PM). This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery. The JavaScript file was created using Day.js and jQuery libraries. Time slots are color coded as follows... time that has passed is gray, the current hour is red, and future time blocks are green.
 
+- (Had problems with deployment on last repository so had to move everything to this new file)
+
 <br/>
 
 ## **Webpage:**
